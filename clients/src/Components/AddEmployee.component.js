@@ -261,11 +261,6 @@ class AddEmployee extends React.Component {
           </Modal.Body>
         </Modal>
       </div>
-      //   <div class="CardBox-wrapper">
-      //     <div class="CardBox">
-
-      //     </div>
-      //   </div>
     );
   }
 }
