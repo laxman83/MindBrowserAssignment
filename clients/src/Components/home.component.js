@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-
 import { Table, Button, Modal } from "react-bootstrap";
 import getDataService from "../Services/getData";
 import AddEmployee from "./AddEmployee.component";
+
 const Home = () => {
   const [users, setUser] = useState([]);
   const [firstname, setFirstName] = useState("");
