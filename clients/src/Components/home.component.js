@@ -126,7 +126,7 @@ const Home = () => {
                       keyboard={false}
                     >
                       <Modal.Header closeButton>
-                        <Modal.Title>Modal title</Modal.Title>
+                        <Modal.Title>Update Employee Information</Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
                         <form>
@@ -277,7 +277,7 @@ const Home = () => {
 
                     <Modal show={deleteShow} onHide={handleDeleteClose}>
                       <Modal.Body>
-                        <h4>Do you want delete</h4>
+                        <h4>Do you want delete record empid: {empid}</h4>
                       </Modal.Body>
                       <Modal.Footer>
                         <Button variant="secondary" onClick={handleDeleteClose}>
